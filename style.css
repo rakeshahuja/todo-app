@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 0 16px;
+  background: #f4f6f8;
+}
+
+h1 {
+  text-align: center;
+}
+
+#taskInput {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#addBtn {
+  padding: 10px 16px;
+  font-size: 16px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: white;
+  padding: 10px;
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li span {
+  cursor: pointer;
+}
+
+li.done span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+li button {
+  background: #dc2626;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+}
